@@ -1,0 +1,120 @@
+.site-title {
+  text-align: center;
+  margin: 0;
+  margin-top: 40px;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.select-wrapper {
+  background-color: #fff;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 10px;
+} 
+
+.select-form {
+  display: flex;
+  align-items: center;
+}
+
+.info-wrapper {
+  display: none;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.all-selects {
+  width: 250px;
+  text-align: center;
+  color: #fff;
+  font-size: large;
+  font-weight: 500;
+  letter-spacing: 1px;
+  background-color: rgb(0, 110, 255);
+}
+
+.submit-btn {
+  width: 150px;
+  margin-left: 30px;
+  margin-top: 33px;
+}
+
+.select-form div ~ div {
+  margin-left: 30px;
+}
+
+.select-form div h3 {
+  font-size: x-large;
+  color: rgb(58, 47, 47);
+}
+
+
+.info {
+  width: 350px;
+  text-align: center;
+}
+
+
+
+.company-name {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.complex-name {
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.rooms-info p {
+  margin: 0;
+  font-size: large;
+  font-weight: 400;
+  line-height: 15px;
+  margin-top: 15px;
+}
+
+.rooms-info h5 {
+  margin-top: 15px;
+}
+
+
+.bank p {
+  margin: 0;
+  font-size: large;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.bank h4 {
+  font-size: larger;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.img {
+  width: 250px;
+  height: 130px;
+  object-fit: contain;
+}
+
+.calc h3 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 2px;
+} 
+
+.calc p {
+  margin: 0;
+  margin-top: 10px;
+  font-size: large;
+  font-weight: 500;
+}
