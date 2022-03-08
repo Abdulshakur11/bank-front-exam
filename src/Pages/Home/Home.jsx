@@ -38,7 +38,7 @@ function App() {
     infoWrapper.style.display = "flex"
     const optionElement = e.target.childNodes[e.target.selectedIndex];
     const companyId = optionElement.getAttribute('id');
-    setCompanyName([company.find(e => e.company_id == companyId)])
+    setCompanyName([company.find(e => e.company_id === companyId)])
     fetch(`https://exam-8-backend.herokuapp.com/complex?company_id=${companyId}`)
       .then(res => res.json())
       .then(data => setComplex(data))
@@ -63,7 +63,7 @@ function App() {
     bank.disabled = false;
     const optionElement = e.target.childNodes[e.target.selectedIndex];
     const roomId = optionElement.getAttribute('id');
-    const roomInfo = numberOfRooms.find(e => e.number_of_room_id == roomId);
+    const roomInfo = numberOfRooms.find(e => e.number_of_room_id === roomId);
     setRoomsInfo([roomInfo]);
   };
 
@@ -71,7 +71,7 @@ function App() {
   const handleBank = (e) => {
     const optionElement = e.target.childNodes[e.target.selectedIndex];
     const bankId = optionElement.getAttribute('id');
-    const findBank = banks.find(e => e.bank_id == bankId);
+    const findBank = banks.find(e => e.bank_id === bankId);
     setBankInfo([findBank]);
     const { starting_paymant, moratge_duration } = findBank;
     const roomID = roomsInfo.map(e => e.number_of_room_id);
