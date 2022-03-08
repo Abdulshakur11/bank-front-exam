@@ -199,7 +199,7 @@ function App() {
           <div className='info'>
             {companyName && companyName.map((e, i) => (
               <div key={i}>
-                <img className='img' src={e.company_img} />
+                <img className='img' src={e.company_img} alt="company-logo" />
                 <h4 className='company-name'>{e.company_name}</h4>
               </div>
             ))}
@@ -221,7 +221,7 @@ function App() {
           <div className='info'>
             {bankInfo && bankInfo.map((e, i) => (
               <div className='bank' key={i}>
-                <img className='img' src={e.bank_img} />
+                <img className='img' src={e.bank_img} alt="bank-logo" />
                 <h5 className='company-name bank-n'>{e.bank_name}</h5>
                 <p>{e.bank_creadit} so'm upto</p>
                 <p>Mortage duration: {e.moratge_duration} year</p>
